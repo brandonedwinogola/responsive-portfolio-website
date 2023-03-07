@@ -44,6 +44,20 @@ window.addEventListener('scroll', scrollActive)
 
 
 
+// Select the toggle button and menu elements
+const toggleButton = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
+
+// Add a click event listener to the toggle button
+toggleButton.addEventListener('click', () => {
+  // Toggle the 'open' class on the menu to show/hide it
+  navMenu.classList.toggle('open');
+});
+
+
+
+
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',

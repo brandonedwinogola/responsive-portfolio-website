@@ -339,6 +339,11 @@ img {
   border-radius: .5rem;
 }
 
+/* ==== RESUME ====*/
+.resume__container {
+  align-items: center;
+}
+
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
